@@ -1,0 +1,20 @@
+AGROSMART - PWA
+
+He preparado tu página para poder instalarla como aplicación móvil.
+
+Archivos:
+- index.html: tu página AgroSmart con soporte PWA.
+- manifest.json: configuración de la aplicación.
+- sw.js: Service Worker para caché y funcionamiento tipo app.
+- icon-192.png e icon-512.png: iconos.
+
+PARA GITHUB PAGES:
+1. Sustituye tu index.html por este.
+2. Sube también manifest.json, sw.js, icon-192.png e icon-512.png a la misma carpeta.
+3. Haz commit y espera a que GitHub Pages publique los cambios.
+4. Abre https://alanbmm.github.io/AgroSmart/
+5. En Android/Chrome: menú -> Instalar aplicación / Añadir a pantalla de inicio.
+6. En iPhone/Safari: Compartir -> Añadir a pantalla de inicio.
+
+El mapa, búsquedas, alertas, meteorología y asistente siguen estando dentro de tu página.
+El backend de IA y las APIs externas no se sustituyen por la PWA.
